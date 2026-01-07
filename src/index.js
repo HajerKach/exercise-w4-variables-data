@@ -7,6 +7,9 @@ Where Technigo Cafe is replaced by the name of your cafe that is stored in the v
 const cafeName = "Technigo Cafe";
 console.log(`Welcome to ${cafeName}! What would you like to order today?`);
 
+let cafeStore = "Paradise Cafe";
+console.log(`Welcome to ${cafeName} What would you like to order today`);
+
 /*
 2)
 Create a variable that stores the price of a coffee.
@@ -14,6 +17,10 @@ Create a variable that stores how many coffees the customer wants.
 Print out the total price such as "There you go, that'll be 10 euros"
 Where 10 is replaced by the calculation of the total price.
 */
+const cafePrice = 18;
+const cafeAmount = 3;
+
+console.log(`There you go, that'll be " ${cafePrice * cafeAmount} dollar!`);
 
 /*
 3)
