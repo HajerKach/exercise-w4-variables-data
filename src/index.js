@@ -43,7 +43,7 @@ Assign it a new value.
 Print it out. => This should give you the new value.
 */
 
-let cafeGuests = 5;
+const cafeGuests = 5;
 console.log(cafeGuests);
 cafeGuests = 10;
 console.log(cafeGuests);
